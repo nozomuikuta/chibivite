@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - .config
+      - .config/**
       - .github/workflows/ci-cd.yml
       - docs/**
       - package.json
