@@ -31,3 +31,7 @@ Viteのアーキテクチャや内部実装、関連知識を学ぶことがで�
 ## 著者について
 
 <AuthorProfile locale="ja" />
+
+## スポンサー
+
+![](https://raw.githubusercontent.com/NozomuIkuta/sponsors/main/sponsors.png)

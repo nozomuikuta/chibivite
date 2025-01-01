@@ -11,3 +11,7 @@ Please check [Japanese version](/ja/) at the moment.
 ## About Author
 
 <AuthorProfile />
+
+## Sponsors
+
+![](https://raw.githubusercontent.com/NozomuIkuta/sponsors/main/sponsors.png)
