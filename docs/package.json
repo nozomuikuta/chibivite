@@ -10,16 +10,16 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "vue": "^3.5.12"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@braintree/sanitize-url": "^7.1.0",
-    "cytoscape": "^3.30.3",
+    "@braintree/sanitize-url": "^7.1.1",
+    "cytoscape": "^3.30.4",
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.13",
-    "debug": "^4.3.7",
-    "mermaid": "^11.4.0",
-    "vitepress": "^1.4.5",
+    "debug": "^4.4.0",
+    "mermaid": "^11.4.1",
+    "vitepress": "^1.5.0",
     "vitepress-plugin-mermaid": "^2.0.17"
   }
 }
