@@ -1,7 +1,7 @@
+import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { enConfig } from './en'
 import { jaConfig, jaSearchConfig } from './ja'
-import { defineConfig } from 'vitepress'
 
 const PROD = process.env.NODE_ENV === 'production'
 
