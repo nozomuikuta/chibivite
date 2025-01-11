@@ -8,16 +8,21 @@ const { locale = 'en' } = defineProps<{
 const author = {
   avatar: 'https://avatars.githubusercontent.com/u/16436160',
   name: 'Nozomu Ikuta',
-  desc:
-    locale === 'en'
-      ? 'Member of UnJS / Vue.js JP Core Staff / Vite Contributor'
-      : 'UnJSメンバー/ Vue.js JP コアスタッフ / Vite コントリビューター',
   sponsor: 'https://github.com/sponsors/nozomuikuta',
-  actionText: locale === 'en' ? 'Sponsor' : 'スポンサー',
   links: [
     { icon: 'github', link: 'https://github.com/nozomuikuta' },
     { icon: 'twitter', link: 'https://twitter.com/nozomuikuta' },
   ],
+  ...{
+    en: {
+      desc: 'UnJS Member / Vue.js JP Core Staff / Vite Contributor',
+      actionText: 'Sponsor',
+    },
+    ja: {
+      desc: 'UnJSメンバー / Vue.js JP コアスタッフ / Vite コントリビューター',
+      actionText: 'スポンサー',
+    },
+  }[locale],
 }
 </script>
 
