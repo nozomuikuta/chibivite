@@ -59,7 +59,7 @@ export const jaConfig = defineConfig({
       },
       {
         text: 'ハンズオン',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '概要', link: '/ja/hands-on/' },
           { text: 'ツールのセットアップ', link: '/ja/hands-on/tool-setup' },

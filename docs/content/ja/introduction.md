@@ -2,6 +2,10 @@
 import AuthorProfile from '../../.vitepress/components/AuthorProfile.vue'
 </script>
 
+::: warning 🚧 開発中
+このオンラインブックは開発中であり、ページ構成や各ページの内容は予告なく変更されます。
+:::
+
 # はじめに
 
 本書に興味をもっていただき、ありがとうございます！

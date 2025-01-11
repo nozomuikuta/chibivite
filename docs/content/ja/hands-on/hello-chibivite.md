@@ -1,5 +1,9 @@
 # Hello, chibivite!
 
+::: warning 🚧 開発中
+このオンラインブックは開発中であり、ページ構成や各ページの内容は予告なく変更されます。
+:::
+
 ::: tip 🎯 このページのゴール
 
 - chibiviteの[コマンドラインインターフェース](/ja/concepts/command-line-interface)を実装しましょう
